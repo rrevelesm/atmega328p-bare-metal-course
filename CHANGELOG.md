@@ -9,3 +9,4 @@ All notable changes to this project will be documented in this file.
 - Base documentation directories.
 - Firmware examples workspace.
 - Practices workspace.
+- Portable VS Code configuration for AVR development (`c_cpp_properties.json` and `extensions.json`).
