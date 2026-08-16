@@ -68,6 +68,13 @@ jobs:
           make EXAMPLE_DIR=firmware/examples/06_timer1_pwm size
           test -f firmware/examples/06_timer1_pwm/build/main.hex
 
+      - name: Compile 07_adc_pwm Example
+        run: |
+          make EXAMPLE_DIR=firmware/examples/07_adc_pwm clean
+          make EXAMPLE_DIR=firmware/examples/07_adc_pwm all
+          make EXAMPLE_DIR=firmware/examples/07_adc_pwm size
+          test -f firmware/examples/07_adc_pwm/build/main.hex
+
       - name: Verify All Generated HEX Artifacts
         run: |
           echo "All firmware examples compiled and verified successfully."

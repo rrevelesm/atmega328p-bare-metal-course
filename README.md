@@ -29,6 +29,7 @@ This course delivers a datasheet-first engineering approach to 8-bit AVR microco
 * **External Interrupts:** Asynchronous hardware event handling via INT0 line (`PR-04`).
 * **Hardware Timers:** Timer0 CTC mode generating 1 ms atomic system timebase tick (`PR-05`).
 * **Hardware PWM:** Timer1 16-bit Fast PWM Mode 14 autonomous waveform generation on OC1A (`PR-06`).
+* **Analog Acquisition:** 10-bit polled ADC sampling on ADC0 mapped to PWM duty cycle scaling (`PR-07`).
 * **Portable VS Code Workspace:** IntelliSense, task configurations, and extension recommendations.
 * **Automated CI:** Headless AVR firmware build verification via GitHub Actions (`avr-build.yml`).
 * **Prepared Flashing Pipeline:** AVRDUDE ISP flashing targets integrated into build scripts.
@@ -53,7 +54,8 @@ This course delivers a datasheet-first engineering approach to 8-bit AVR microco
 * [x] **PR-04 — External Interrupts with INT0:** [PR-04_external-interrupt.md](practices/labs/PR-04_external-interrupt.md) (Available — Level A Guided)
 * [x] **PR-05 — Timer0 CTC Mode & 1 ms System Tick:** [PR-05_timer0-ctc.md](practices/labs/PR-05_timer0-ctc.md) (Available — Level A Guided)
 * [x] **PR-06 — Timer1 Hardware PWM Control:** [PR-06_timer1-pwm.md](practices/labs/PR-06_timer1-pwm.md) (Available — Level B Semi-Guided)
-* [ ] **PR-07 to PR-12:** Planned / In Development
+* [x] **PR-07 — ADC Acquisition & PWM Control:** [PR-07_adc-pwm.md](practices/labs/PR-07_adc-pwm.md) (Available — Level B Semi-Guided)
+* [ ] **PR-08 to PR-12:** Planned / In Development
 
 ---
 

@@ -35,7 +35,8 @@ All authored laboratory practices residing in `practices/labs/` follow the stric
 * [x] **PR-04 — External Interrupts with INT0:** [PR-04_external-interrupt.md](labs/PR-04_external-interrupt.md) (Available — Level A Guided)
 * [x] **PR-05 — Timer0 CTC Mode & 1 ms System Tick:** [PR-05_timer0-ctc.md](labs/PR-05_timer0-ctc.md) (Available — Level A Guided)
 * [x] **PR-06 — Timer1 Hardware PWM Control:** [PR-06_timer1-pwm.md](labs/PR-06_timer1-pwm.md) (Available — Level B Semi-Guided)
-* [ ] **PR-07 to PR-12:** Pending
+* [x] **PR-07 — ADC Acquisition & PWM Control:** [PR-07_adc-pwm.md](labs/PR-07_adc-pwm.md) (Available — Level B Semi-Guided)
+* [ ] **PR-08 to PR-12:** Pending
 
 ---
 

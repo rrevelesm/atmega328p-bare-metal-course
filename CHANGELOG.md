@@ -32,3 +32,4 @@ All notable changes to this project will be documented in this file.
 - Added PR-04 external interrupt INT0 laboratory and firmware example.
 - Added PR-05 Timer0 CTC system tick laboratory and firmware example.
 - Added PR-06 Timer1 hardware PWM laboratory and firmware example.
+- Added PR-07 ADC acquisition and PWM control laboratory and firmware example.

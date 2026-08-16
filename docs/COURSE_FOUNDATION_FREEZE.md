@@ -33,6 +33,7 @@
 * **PR-04 (External Interrupts):** **AVAILABLE** (Level A Guided — `firmware/examples/04_external_interrupt/`).
 * **PR-05 (Timer0 CTC System Tick):** **AVAILABLE** (Level A Guided — `firmware/examples/05_timer0_ctc/`).
 * **PR-06 (Timer1 Hardware PWM):** **AVAILABLE** (Level B Semi-Guided — `firmware/examples/06_timer1_pwm/`).
+* **PR-07 (ADC & PWM Control):** **AVAILABLE** (Level B Semi-Guided — `firmware/examples/07_adc_pwm/`).
 
 ---
 
@@ -45,4 +46,4 @@
 
 ## 4. Development Target Sign-Off
 
-NEXT DEVELOPMENT TARGET: PR-07 — ADC
+NEXT DEVELOPMENT TARGET: PR-08 — UART
