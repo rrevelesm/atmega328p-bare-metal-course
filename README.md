@@ -1,5 +1,7 @@
 # ATmega328P Bare-Metal Microcontrollers Course
 
+[![AVR Bare-Metal Firmware CI](https://github.com/rrevelesm/atmega328p-bare-metal-course/actions/workflows/avr-build.yml/badge.svg)](https://github.com/rrevelesm/atmega328p-bare-metal-course/actions/workflows/avr-build.yml)
+
 Academic repository for a university-level microcontroller course based on the Microchip **ATmega328P** (DIP-28), focusing on bare-metal C programming and direct register manipulation.
 
 ---
@@ -60,7 +62,7 @@ This course delivers a datasheet-first engineering approach to 8-bit AVR microco
 
 ```powershell
 # Clone and build default GPIO blink example
-git clone https://github.com/rreveles/atmega328p-bare-metal-course.git
+git clone https://github.com/rrevelesm/atmega328p-bare-metal-course.git
 cd atmega328p-bare-metal-course
 make
 make size
