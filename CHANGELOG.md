@@ -16,3 +16,5 @@ All notable changes to this project will be documented in this file.
 - Added portable VS Code build tasks.
 - Added first ATmega328P bare-metal GPIO example.
 - Added hardware-independent AVR continuous integration workflow.
+- Added frozen pedagogical architecture for the ATmega328P bare-metal course.
+- Added learning outcomes, practice map, assessment strategy, hardware requirements, and traceability matrix.

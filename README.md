@@ -23,7 +23,15 @@ The planned development stack consists of:
 
 ## Status
 
-`Phase 2 — Build System & Initial Example Verified`
+`Phase 5 — Pedagogical Architecture Frozen`
+
+## Course Structure
+
+* **Selected Duration:** 36 Hours (12h Theory / 24h Laboratory Practice)
+* **Modules:** 12 Instructional Modules
+* **Practices:** 12 Hands-on Bare-Metal Laboratory Practices
+* **Capstone Project:** Bare-Metal Data Acquisition & Telemetry Station
+* **Architecture Specs:** See [COURSE_ARCHITECTURE.md](docs/course/COURSE_ARCHITECTURE.md)
 
 ## Quick Build
 
