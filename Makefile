@@ -2,7 +2,7 @@
 # Root Makefile for ATmega328P Bare-Metal Course
 # ==============================================================================
 
-EXAMPLE_DIR := firmware/examples/01_gpio_blink
+EXAMPLE_DIR ?= firmware/examples/01_gpio_blink
 
 .PHONY: all build size disasm flash clean
 

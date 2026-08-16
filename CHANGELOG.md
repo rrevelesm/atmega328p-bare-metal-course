@@ -21,3 +21,4 @@ All notable changes to this project will be documented in this file.
 - Added standardized engineering template for laboratory practices.
 - Added progressive practice scaffolding and authoring rules.
 - Added PR-01 GPIO output pilot laboratory practice.
+- Added PR-02 GPIO input and internal pull-up laboratory practice.
