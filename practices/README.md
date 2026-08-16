@@ -32,7 +32,8 @@ All authored laboratory practices residing in `practices/labs/` follow the stric
 * [x] **PR-01 — Basic GPIO Output & LED Control:** [PR-01_gpio-output.md](labs/PR-01_gpio-output.md) (Available — Level A Pilot)
 * [x] **PR-02 — GPIO Input & Internal Pull-Up Resistor:** [PR-02_gpio-input.md](labs/PR-02_gpio-input.md) (Available — Level A Guided)
 * [x] **PR-03 — GPIO Mechanical Switch Debouncing:** [PR-03_gpio-debounce.md](labs/PR-03_gpio-debounce.md) (Available — Level A Guided)
-* [ ] **PR-04 to PR-12:** Pending
+* [x] **PR-04 — External Interrupts with INT0:** [PR-04_external-interrupt.md](labs/PR-04_external-interrupt.md) (Available — Level A Guided)
+* [ ] **PR-05 to PR-12:** Pending
 
 ---
 

@@ -26,6 +26,7 @@ This course delivers a datasheet-first engineering approach to 8-bit AVR microco
 * **GPIO Output:** Digital pin control, bitwise masking (`|=`, `^=`), and assembly inspection (`PR-01`).
 * **GPIO Input:** Internal pull-up activation, active-low logic, and input register reading (`PR-02`).
 * **GPIO Debounce:** Non-blocking state machine filtering mechanical switch contact bounce (`PR-03`).
+* **External Interrupts:** Asynchronous hardware event handling via INT0 line (`PR-04`).
 * **Portable VS Code Workspace:** IntelliSense, task configurations, and extension recommendations.
 * **Automated CI:** Headless AVR firmware build verification via GitHub Actions (`avr-build.yml`).
 * **Prepared Flashing Pipeline:** AVRDUDE ISP flashing targets integrated into build scripts.
@@ -47,7 +48,8 @@ This course delivers a datasheet-first engineering approach to 8-bit AVR microco
 * [x] **PR-01 — Basic GPIO Output & LED Control:** [PR-01_gpio-output.md](practices/labs/PR-01_gpio-output.md) (Available — Level A Pilot)
 * [x] **PR-02 — GPIO Input & Internal Pull-Up Resistor:** [PR-02_gpio-input.md](practices/labs/PR-02_gpio-input.md) (Available — Level A Guided)
 * [x] **PR-03 — GPIO Mechanical Switch Debouncing:** [PR-03_gpio-debounce.md](practices/labs/PR-03_gpio-debounce.md) (Available — Level A Guided)
-* [ ] **PR-04 to PR-12:** Planned / In Development
+* [x] **PR-04 — External Interrupts with INT0:** [PR-04_external-interrupt.md](practices/labs/PR-04_external-interrupt.md) (Available — Level A Guided)
+* [ ] **PR-05 to PR-12:** Planned / In Development
 
 ---
 
