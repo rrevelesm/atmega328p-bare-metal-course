@@ -30,3 +30,4 @@ All notable changes to this project will be documented in this file.
 - Added PR-03 software debounce laboratory and firmware example.
 - Extended CI coverage to all current firmware examples.
 - Added PR-04 external interrupt INT0 laboratory and firmware example.
+- Added PR-05 Timer0 CTC system tick laboratory and firmware example.

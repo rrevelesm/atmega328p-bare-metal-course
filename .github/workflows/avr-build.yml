@@ -54,6 +54,13 @@ jobs:
           make EXAMPLE_DIR=firmware/examples/04_external_interrupt size
           test -f firmware/examples/04_external_interrupt/build/main.hex
 
+      - name: Compile 05_timer0_ctc Example
+        run: |
+          make EXAMPLE_DIR=firmware/examples/05_timer0_ctc clean
+          make EXAMPLE_DIR=firmware/examples/05_timer0_ctc all
+          make EXAMPLE_DIR=firmware/examples/05_timer0_ctc size
+          test -f firmware/examples/05_timer0_ctc/build/main.hex
+
       - name: Verify All Generated HEX Artifacts
         run: |
           echo "All firmware examples compiled and verified successfully."

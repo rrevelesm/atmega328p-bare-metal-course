@@ -31,6 +31,7 @@
 * **PR-02 (GPIO Input & Pull-Up):** **AVAILABLE** (Level A Guided — `firmware/examples/02_gpio_input/`).
 * **PR-03 (GPIO Debounce):** **AVAILABLE** (Level A Guided — `firmware/examples/03_gpio_debounce/`).
 * **PR-04 (External Interrupts):** **AVAILABLE** (Level A Guided — `firmware/examples/04_external_interrupt/`).
+* **PR-05 (Timer0 CTC System Tick):** **AVAILABLE** (Level A Guided — `firmware/examples/05_timer0_ctc/`).
 
 ---
 
@@ -43,4 +44,4 @@
 
 ## 4. Development Target Sign-Off
 
-NEXT DEVELOPMENT TARGET: PR-05 — Timers
+NEXT DEVELOPMENT TARGET: PR-06 — PWM
