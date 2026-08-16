@@ -41,6 +41,10 @@ VS Code -> Make -> avr-gcc -> AVRDUDE -> USBasp (Pending hardware connection) ->
 
 Hardware programming validation: PENDING (Software toolchain fully verified; physical USBasp hardware connection pending).
 
+## Continuous Integration
+
+Automated hardware-independent AVR firmware compilation and verification via GitHub Actions (`.github/workflows/avr-build.yml`) running on `ubuntu-latest`.
+
 ## Institution
 
 This material is developed for academic training activities in microcontrollers at **TecNM / Instituto Tecnológico Superior de Jerez**.

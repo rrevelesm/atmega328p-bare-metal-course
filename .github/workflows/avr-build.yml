@@ -1,0 +1,41 @@
+name: AVR Bare-Metal Firmware CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-firmware:
+    name: Build and Verify AVR Firmware
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install AVR GNU Toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-avr avr-libc binutils-avr make
+
+      - name: Display Toolchain Versions
+        run: |
+          avr-gcc --version
+          avr-size --version
+          make --version
+
+      - name: Clean Build Workspace
+        run: make clean
+
+      - name: Compile AVR Firmware
+        run: make
+
+      - name: Report Firmware Size
+        run: make size
+
+      - name: Verify Generated HEX Artifact
+        run: |
+          test -f firmware/examples/01_gpio_blink/build/main.hex
+          echo "Intel HEX artifact verified successfully."
