@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-firmware:
-    name: Build and Verify AVR Firmware
+    name: Build and Verify All AVR Firmware Examples
     runs-on: ubuntu-latest
 
     steps:
@@ -26,16 +26,27 @@ jobs:
           avr-size --version
           make --version
 
-      - name: Clean Build Workspace
-        run: make clean
-
-      - name: Compile AVR Firmware
-        run: make
-
-      - name: Report Firmware Size
-        run: make size
-
-      - name: Verify Generated HEX Artifact
+      - name: Compile 01_gpio_blink Example
         run: |
+          make EXAMPLE_DIR=firmware/examples/01_gpio_blink clean
+          make EXAMPLE_DIR=firmware/examples/01_gpio_blink all
+          make EXAMPLE_DIR=firmware/examples/01_gpio_blink size
           test -f firmware/examples/01_gpio_blink/build/main.hex
-          echo "Intel HEX artifact verified successfully."
+
+      - name: Compile 02_gpio_input Example
+        run: |
+          make EXAMPLE_DIR=firmware/examples/02_gpio_input clean
+          make EXAMPLE_DIR=firmware/examples/02_gpio_input all
+          make EXAMPLE_DIR=firmware/examples/02_gpio_input size
+          test -f firmware/examples/02_gpio_input/build/main.hex
+
+      - name: Compile 03_gpio_debounce Example
+        run: |
+          make EXAMPLE_DIR=firmware/examples/03_gpio_debounce clean
+          make EXAMPLE_DIR=firmware/examples/03_gpio_debounce all
+          make EXAMPLE_DIR=firmware/examples/03_gpio_debounce size
+          test -f firmware/examples/03_gpio_debounce/build/main.hex
+
+      - name: Verify All Generated HEX Artifacts
+        run: |
+          echo "All firmware examples compiled and verified successfully."

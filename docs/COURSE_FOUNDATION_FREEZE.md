@@ -29,6 +29,7 @@
 * **Practice Engineering Standard:** **FROZEN** (20-Section Master Template & 3-Level Scaffolding Model).
 * **PR-01 (Basic GPIO Output):** **AVAILABLE** (Level A Pilot — `firmware/examples/01_gpio_blink/`).
 * **PR-02 (GPIO Input & Pull-Up):** **AVAILABLE** (Level A Guided — `firmware/examples/02_gpio_input/`).
+* **PR-03 (GPIO Debounce):** **AVAILABLE** (Level A Guided — `firmware/examples/03_gpio_debounce/`).
 
 ---
 
@@ -41,4 +42,4 @@
 
 ## 4. Development Target Sign-Off
 
-NEXT DEVELOPMENT TARGET: PR-03 — GPIO DEBOUNCE
+NEXT DEVELOPMENT TARGET: PR-04 — External Interrupts

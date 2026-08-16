@@ -27,3 +27,5 @@ All notable changes to this project will be documented in this file.
 - Added repository architecture map.
 - Finalized dual licensing for code and educational material.
 - Prepared repository for first public GitHub publication.
+- Added PR-03 software debounce laboratory and firmware example.
+- Extended CI coverage to all current firmware examples.
