@@ -11,7 +11,8 @@
             "intelliSenseMode": "gcc-x64",
             "defines": [
                 "__AVR__",
-                "__AVR_ATmega328P__"
+                "__AVR_ATmega328P__",
+                "F_CPU=16000000UL"
             ],
             "includePath": [
                 "${workspaceFolder}/**"

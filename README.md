@@ -23,7 +23,17 @@ The planned development stack consists of:
 
 ## Status
 
-`Phase 0 — Repository bootstrap`
+`Phase 2 — Build System & Initial Example Verified`
+
+## Quick Build
+
+```powershell
+cd atmega328p-bare-metal-course
+code .
+make
+```
+
+*Note: Remote repository URL will be configured in a subsequent phase.*
 
 ## Institution
 

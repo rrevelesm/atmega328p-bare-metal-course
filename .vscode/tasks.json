@@ -1,0 +1,39 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "AVR: Build",
+            "type": "shell",
+            "command": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "AVR: Clean",
+            "type": "shell",
+            "command": "make clean",
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "AVR: Size",
+            "type": "shell",
+            "command": "make size",
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "AVR: Disassembly",
+            "type": "shell",
+            "command": "make disasm",
+            "problemMatcher": "$gcc"
+        },
+        {
+            "label": "AVR: Flash",
+            "type": "shell",
+            "command": "make flash",
+            "problemMatcher": "$gcc"
+        }
+    ]
+}
