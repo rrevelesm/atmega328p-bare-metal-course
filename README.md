@@ -1,66 +1,93 @@
 # ATmega328P Bare-Metal Microcontrollers Course
 
-Academic repository for a microcontroller programming course based on ATmega328P using bare-metal C and direct register access.
+Academic repository for a university-level microcontroller course based on the Microchip **ATmega328P** (DIP-28), focusing on bare-metal C programming and direct register manipulation.
+
+---
+
+## Overview
+
+This course delivers a datasheet-first engineering approach to 8-bit AVR microcontrollers. High-level frameworks like Arduino are deliberately excluded to ensure students master Special Function Registers (SFRs), memory maps, peripheral timing, interrupt vectors, and reproducible GNU compilation.
+
+---
 
 ## Philosophy
 
-- No Arduino framework
-- No Arduino API
-- Datasheet-first approach
-- Deep understanding of architecture and peripherals
-- Reproducibility using GNU AVR tools
+* **Datasheet-First:** Register configurations derived directly from official Microchip documentation.
+* **Bare-Metal Rigor:** Direct register access (`DDRx`, `PORTx`, `PINx`, SFRs) without opaque abstractions.
+* **No Arduino Framework:** Zero dependency on Arduino IDE, Wiring libraries, `digitalWrite()`, or `delay()`.
+* **Reproducible GNU Toolchain:** Built with `avr-gcc`, `GNU Make`, `AVRDUDE`, and VS Code.
 
-## Planned Toolchain
+---
 
-The planned development stack consists of:
-- `avr-gcc`
-- `avr-libc`
-- `GNU Make`
-- `AVRDUDE`
-- `binutils-avr`
+## Current Capabilities
 
-*Note: Exact toolchain versions will be audited and frozen in a subsequent phase.*
+* **GPIO Output:** Digital pin control, bitwise masking (`|=`, `^=`), and assembly inspection (`PR-01`).
+* **GPIO Input:** Internal pull-up activation, active-low logic, and input register reading (`PR-02`).
+* **Portable VS Code Workspace:** IntelliSense, task configurations, and extension recommendations.
+* **Automated CI:** Headless AVR firmware build verification via GitHub Actions (`avr-build.yml`).
+* **Prepared Flashing Pipeline:** AVRDUDE ISP flashing targets integrated into build scripts.
 
-## Status
-
-`Phase 6 — Practice Engineering Standard Frozen`
+---
 
 ## Course Structure
 
-* **Selected Duration:** 36 Hours (12h Theory / 24h Laboratory Practice)
-* **Modules:** 12 Instructional Modules
-* **Practices:** 12 Hands-on Bare-Metal Laboratory Practices
+* **Total Duration:** 36 Hours (12h Theory / 24h Laboratory Practice)
+* **Instructional Modules:** 12 Modules
+* **Laboratory Practices:** 12 Authored Bare-Metal Practice Guides
 * **Capstone Project:** Bare-Metal Data Acquisition & Telemetry Station
-* **Architecture Specs:** See [COURSE_ARCHITECTURE.md](docs/course/COURSE_ARCHITECTURE.md)
+* **Architecture Documentation:** See [COURSE_ARCHITECTURE.md](docs/course/COURSE_ARCHITECTURE.md)
 
-## Practice Engineering
+---
 
-All 12 laboratory practices adhere to a standardized 20-section master template and 3-level scaffolding model. See [PRACTICE_AUTHORING_STANDARD.md](docs/course/PRACTICE_AUTHORING_STANDARD.md) and [PRACTICE_SCAFFOLDING_MAP.md](docs/course/PRACTICE_SCAFFOLDING_MAP.md).
+## Available Practices
 
-## Quick Build
+* [x] **PR-01 — Basic GPIO Output & LED Control:** [PR-01_gpio-output.md](practices/labs/PR-01_gpio-output.md) (Available — Level A Pilot)
+* [x] **PR-02 — GPIO Input & Internal Pull-Up Resistor:** [PR-02_gpio-input.md](practices/labs/PR-02_gpio-input.md) (Available — Level A Guided)
+* [ ] **PR-03 to PR-12:** Planned / In Development
+
+---
+
+## Getting Started
+
+* **Quick Start (1-Minute):** See [QUICK_START.md](docs/getting-started/QUICK_START.md)
+* **Windows Toolchain Setup:** See [WINDOWS_SETUP.md](docs/getting-started/WINDOWS_SETUP.md)
+* **Troubleshooting Guide:** See [TROUBLESHOOTING.md](docs/getting-started/TROUBLESHOOTING.md)
+* **Repository Architecture Map:** See [REPOSITORY_MAP.md](docs/REPOSITORY_MAP.md)
+
+---
+
+## Quick Build Command
 
 ```powershell
+# Clone and build default GPIO blink example
+git clone https://github.com/rreveles/atmega328p-bare-metal-course.git
 cd atmega328p-bare-metal-course
-code .
 make
+make size
 ```
+
+---
 
 ## Hardware Programming Status
 
 ```text
-VS Code -> Make -> avr-gcc -> AVRDUDE -> USBasp (Pending hardware connection) -> ATmega328P
+VS Code -> Make -> avr-gcc -> AVRDUDE -> USBasp (Pending physical hardware) -> ATmega328P
 ```
 
-Hardware programming validation: PENDING (Software toolchain fully verified; physical USBasp hardware connection pending).
+* **Status:** Software toolchain and ISP flashing scripts are fully verified; physical USBasp hardware connection on instructor machine is pending.
 
-## Continuous Integration
+---
 
-Automated hardware-independent AVR firmware compilation and verification via GitHub Actions (`.github/workflows/avr-build.yml`) running on `ubuntu-latest`.
+## License
 
-## Institution
+This repository uses a dual-licensing model (see [LICENSING.md](docs/course/LICENSING.md)):
 
-This material is developed for academic training activities in microcontrollers at **TecNM / Instituto Tecnológico Superior de Jerez**.
+* **Source Code & Infrastructure:** Licensed under the [MIT License](LICENSE-CODE).
+* **Educational Content & Documentation:** Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE-DOCS).
 
-## Author
+---
 
-**Rafael Reveles-Martínez**
+## Author & Institutional Context
+
+* **Author:** **Rafael Reveles-Martínez**
+* **Institution:** Developed for academic training activities in microcontrollers at **TecNM / Instituto Tecnológico Superior de Jerez**.

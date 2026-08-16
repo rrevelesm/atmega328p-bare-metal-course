@@ -11,14 +11,14 @@
 
 * Distribution: xPack Windows Build Tools v4.4.1-3
 * Version: 4.4.1
-* Executable path: C:\Users\rafae\iCloudDrive\Documentos\Repositorios_Git\Microcontroladores\Instaladores\xpack-windows-build-tools-4.4.1-3-win32-x64\xpack-windows-build-tools-4.4.1-3\bin\make.exe
+* Executable path: C:\Tools\xpack-windows-build-tools-4.4.1-3\bin\make.exe
 * PATH status: VERIFIED
 
 ## AVRDUDE
 
 * Distribution: Official AVRDUDE
 * Version: 8.2 (Windows x64)
-* Executable path: C:\Users\rafae\iCloudDrive\Documentos\Repositorios_Git\Microcontroladores\Instaladores\avrdude-v8.2-windows-x64\avrdude.exe
+* Executable path: C:\Tools\avrdude-v8.2-windows-x64\avrdude.exe
 * ATmega328P definition: VERIFIED
 * USBasp definition: VERIFIED
 * Hardware communication: NOT TESTED

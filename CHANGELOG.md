@@ -22,3 +22,8 @@ All notable changes to this project will be documented in this file.
 - Added progressive practice scaffolding and authoring rules.
 - Added PR-01 GPIO output pilot laboratory practice.
 - Added PR-02 GPIO input and internal pull-up laboratory practice.
+- Added complete Windows student setup guide.
+- Added quick-start and troubleshooting documentation.
+- Added repository architecture map.
+- Finalized dual licensing for code and educational material.
+- Prepared repository for first public GitHub publication.
