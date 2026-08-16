@@ -23,7 +23,7 @@ The planned development stack consists of:
 
 ## Status
 
-`Phase 5 — Pedagogical Architecture Frozen`
+`Phase 6 — Practice Engineering Standard Frozen`
 
 ## Course Structure
 
@@ -32,6 +32,10 @@ The planned development stack consists of:
 * **Practices:** 12 Hands-on Bare-Metal Laboratory Practices
 * **Capstone Project:** Bare-Metal Data Acquisition & Telemetry Station
 * **Architecture Specs:** See [COURSE_ARCHITECTURE.md](docs/course/COURSE_ARCHITECTURE.md)
+
+## Practice Engineering
+
+All 12 laboratory practices adhere to a standardized 20-section master template and 3-level scaffolding model. See [PRACTICE_AUTHORING_STANDARD.md](docs/course/PRACTICE_AUTHORING_STANDARD.md) and [PRACTICE_SCAFFOLDING_MAP.md](docs/course/PRACTICE_SCAFFOLDING_MAP.md).
 
 ## Quick Build
 

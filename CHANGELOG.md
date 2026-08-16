@@ -18,3 +18,5 @@ All notable changes to this project will be documented in this file.
 - Added hardware-independent AVR continuous integration workflow.
 - Added frozen pedagogical architecture for the ATmega328P bare-metal course.
 - Added learning outcomes, practice map, assessment strategy, hardware requirements, and traceability matrix.
+- Added standardized engineering template for laboratory practices.
+- Added progressive practice scaffolding and authoring rules.
