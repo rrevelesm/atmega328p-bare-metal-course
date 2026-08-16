@@ -33,7 +33,13 @@ code .
 make
 ```
 
-*Note: Remote repository URL will be configured in a subsequent phase.*
+## Hardware Programming Status
+
+```text
+VS Code -> Make -> avr-gcc -> AVRDUDE -> USBasp (Pending hardware connection) -> ATmega328P
+```
+
+Hardware programming validation: PENDING (Software toolchain fully verified; physical USBasp hardware connection pending).
 
 ## Institution
 
