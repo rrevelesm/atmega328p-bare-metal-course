@@ -11,3 +11,4 @@ All notable changes to this project will be documented in this file.
 - Practices workspace.
 - Portable VS Code configuration for AVR development (`c_cpp_properties.json` and `extensions.json`).
 - Verified GNU Make installation and Windows PATH configuration.
+- Verified AVRDUDE installation and ATmega328P/USBasp configuration.
