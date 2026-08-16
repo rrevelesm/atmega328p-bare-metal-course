@@ -27,6 +27,14 @@ All authored laboratory practices residing in `practices/labs/` follow the stric
 
 ---
 
+## Practices Catalog Status
+
+* [x] **PR-01 — Basic GPIO Output & LED Control:** [PR-01_gpio-output.md](labs/PR-01_gpio-output.md) (Available — Level A Pilot)
+* [ ] **PR-02 — Push Button Input & Debouncing:** Pending
+* [ ] **PR-03 to PR-12:** Pending
+
+---
+
 ## Practice Scaffolding Levels
 
 * **Level A — Guided (PR-01 to PR-04):** Detailed register walkthroughs and reference code provided.

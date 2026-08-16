@@ -20,3 +20,4 @@ All notable changes to this project will be documented in this file.
 - Added learning outcomes, practice map, assessment strategy, hardware requirements, and traceability matrix.
 - Added standardized engineering template for laboratory practices.
 - Added progressive practice scaffolding and authoring rules.
+- Added PR-01 GPIO output pilot laboratory practice.
